@@ -1,0 +1,93 @@
+.features
+{
+  background-image: url(../../assets/Images/000A2107.jpg);
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 100px;
+  padding-top: 150px;
+  width: 100%;
+  /* position: relative; */
+  /* z-index: 1; */
+  height: 1000px;
+}
+.features .container .row .header-feature
+{
+  font-family: 'Montserrat';
+  line-height: 1;
+  text-transform: uppercase;
+  margin: 15px 0;
+}
+.features .container .row h4
+{
+  font-size:25px ;
+}
+.features .container .row h3
+{
+  font-size: 36px;
+}
+.features .container .row p
+{
+  font-size: 12px;
+  line-height: 2;
+}
+.features .row.health
+{
+  padding-top: 50px;
+}
+.features .row .item
+{
+  background-color:#1d1d1d ;
+  width: 322px;
+  height: 500px;
+  margin-left: 183px;
+  color: #fff;
+}
+.features .row .gym-features
+{
+  padding-top: 30px;
+}
+.features .row .item .gym-features .feature-images
+{
+  transform: translateX(-157px);
+}
+.features .row .gym-features .feature-text
+{
+  padding-top: 30px;
+}
+.features .row .gym-features .feature-text h4
+{
+  font-size: 14px;
+}
+.features .row .gym-features .feature-text p
+{
+  line-height: 2;
+  font-size: 12px;
+  margin: 15px 0;
+}
+
+@media(max-width:1024px)
+{
+  .features
+  {
+    height: 1452px;
+    width: 1016px;
+  }
+}
+@media(max-width:768px)
+{
+  .features
+  {
+    height: 1930px;
+    width: 800px;
+  }
+}
+
+@media(max-width:448px)
+{
+  .features
+  {
+    height: 1930px;
+    width: 490px;
+  }
+}
+

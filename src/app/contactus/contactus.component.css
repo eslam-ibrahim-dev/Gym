@@ -1,0 +1,195 @@
+.Contact
+{
+  background-color: #1d1d1d;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  padding-top: 150px;
+}
+.Contact .title
+{
+  position: relative;
+}
+.Contact .title::after
+{
+  content:"";
+  position: absolute;
+  width: 25%;
+  left: 0;
+  height: 2px;
+  background: gray !important;
+  bottom: -10px;
+}
+.Contact .info
+{
+  padding-top: 40px;
+  display: flex;
+  justify-content: start;
+}
+.Contact .info i
+{
+color: #FFF200;
+}
+.Contact .info p
+{
+  margin-left: 15px;
+}
+.Contact .info span
+{
+  font-weight: bold;
+}
+.Contact .info span a
+{
+  text-decoration: none;
+  color: #fff;
+}
+.Contact .area
+{
+  margin: 20px 0;
+}
+.Contact .area p
+{
+  margin-top: 40px;
+  font-weight: bold;
+}
+textarea
+{
+  background-color: #232323;
+  color: #fff;
+  width: 100%;
+  height: 100px;
+}
+.btu
+{
+  color: #fff;
+  width: 100%;
+  background-color: #034EA1;
+  margin-top: 25px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+}
+.message
+{
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 30px;
+  left: 0px;
+  top: 5px;
+  width: 30%;
+  color: #fff!important;
+}
+.Contact .subscribe
+{
+  margin-top: 20px;
+}
+.Contact .subscribe p
+{
+  font-weight: bold;
+  margin-top: 40px;
+}
+.Contact .subscribe input
+{
+  background-color: #232323;
+  color: #fff;
+  margin: 15px 0;
+}
+.Contact .subscribe .gender
+{
+  margin-left: 10px;
+  display: inline;
+}
+.Contact .subscribe .gender label
+{
+  margin-left: 5px;
+}
+
+@media screen and (max-width:1024px) and (min-width:800px)
+{
+  .Contact
+  {
+    background-color: #1d1d1d;
+    width: 1024px;
+    height: auto;
+    color: #fff;
+    padding-top: 150px;
+  }
+  .btu
+  {
+    color: #fff;
+    width: 100%;
+    background-color: #034EA1;
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .message
+{
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+  left: 0px;
+  top: 5px;
+  width: 30%;
+  color: #fff!important;
+}
+}
+
+@media screen and (max-width:768px) and (min-width:500px)
+{
+  .Contact
+  {
+    background-color: #1d1d1d;
+    width: 800px;
+    height: auto;
+    color: #fff;
+    padding-top: 150px;
+  }
+  .btu
+  {
+    color: #fff;
+    width: 100%;
+    background-color: #034EA1;
+    margin-top: 25px;
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+  }
+  .message
+{
+  position: absolute;
+  font-family: "Font Awesome 5 Free";
+  font-size: 20px;
+  left: 0px;
+  top: 5px;
+  width: 30%;
+  color: #fff!important;
+}
+}
+
+@media screen and (max-width:448px) and (min-width:250px)
+{
+
+  .Contact .title
+{
+  position: relative;
+  margin-top: 25px;
+}
+  .Contact
+{
+  background-color: #1d1d1d;
+  width: 490px;
+  height: auto;
+  color: #fff;
+  padding-top: 150px;
+}
+}

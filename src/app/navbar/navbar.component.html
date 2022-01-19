@@ -1,0 +1,26 @@
+<nav class="bg-black ">
+  <div class="container d-flex justify-content-between fixed-top">
+  <div class="smart-img p-3">
+    <img src="../../assets/Images/logo.png"  alt="SmartGym">
+  </div>
+  <button  (click)="addClass(id=1)" class="btn menu-button"><i class="fas fa-bars"></i></button>
+
+  <div class="items ">
+    <ul [ngClass]="{'show': id == 1}" class="list-unstyled d-flex justify-content-around m-4 p-3 text-white nav-list">
+      <div class="main-menu position-relative  pt-4 my-3">
+        <span >MAIN MENU</span>
+        <button (click)="removeClass(id=0)"  class="btn  text-white"><i class="fas fa-times"></i></button>
+      </div>
+      <li class="mx-3 "><a routerLink="home">Home</a> </li>
+      <li class="mx-3"><a routerLink="features">Our Features</a> </li>
+      <li class="mx-3"><a routerLink="aboutus">About Us</a></li>
+      <li class="mx-3"><a routerLink="classes">Classes </a></li>
+      <li class="mx-3"><a routerLink="gallery">Gallery </a></li>
+      <li class="mx-3"><a routerLink="schedule">Schedule </a></li>
+      <li class="mx-3"><a routerLink="contactus">Contact Us </a></li>
+    </ul>
+
+  </div>
+</div>
+
+</nav>
